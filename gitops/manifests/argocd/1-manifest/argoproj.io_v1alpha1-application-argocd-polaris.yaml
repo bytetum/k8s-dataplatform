@@ -21,7 +21,7 @@ spec:
       recurse: true
     path: gitops/manifests/polaris
     ref: values
-    repoURL: git@github.com:bytetum/k8s-dataplatform.git
+    repoURL: https://github.com/bytetum/k8s-dataplatform.git
     targetRevision: HEAD
   syncPolicy:
     automated:
