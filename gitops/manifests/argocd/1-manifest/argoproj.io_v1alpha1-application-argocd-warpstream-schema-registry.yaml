@@ -15,7 +15,7 @@ spec:
       recurse: true
     path: gitops/manifests/warpstream-schema-registry
     ref: values
-    repoURL: git@github.com:bytetum/k8s-dataplatform-quickstart.git
+    repoURL: git@github.com:bytetum/k8s-dataplatform.git
     targetRevision: HEAD
   - chart: warpstream-agent
     helm:

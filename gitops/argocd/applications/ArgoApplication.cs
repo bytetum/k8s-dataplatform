@@ -153,7 +153,7 @@ enum ApplicationType
 internal class ArgoApplicationSource(ApplicationType applicationType, string name)
 {
     public readonly ApplicationType applicationType = applicationType;
-    public string RepoURL { get; set; } = "git@github.com:bytetum/k8s-dataplatform-quickstart.git";
+    public string RepoURL { get; set; } = "git@github.com:bytetum/k8s-dataplatform.git";
     public string TargetRevision { get; set; } = "HEAD";
     public string Path { get; set; } = $"gitops/manifests/{name}";
     public bool SkipCrds { get; set; } = false;

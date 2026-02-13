@@ -14,7 +14,7 @@ spec:
     directory:
       recurse: true
     path: gitops/manifests/flink-session-mode
-    repoURL: git@github.com:bytetum/k8s-dataplatform-quickstart.git
+    repoURL: git@github.com:bytetum/k8s-dataplatform.git
     targetRevision: HEAD
   syncPolicy:
     automated:
